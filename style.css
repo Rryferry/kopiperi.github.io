@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+
+:root {
+  --primaryColor: #967259;
+  --secondaryColor: #e48f45;
+  --lastcolor: #dbc1ac;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: rgb(24, 23, 23);
+  color: var(--lastcolor);
+}
+
+.hero {
+  background-image: url(cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  color: var(--lastcolor);
+}
+
+.buttom a {
+  color: white;
+}
+
+.buttom a:hover {
+  color: var(--lastcolor);
+}
+.categori {
+  min-height: 100vh;
+}
+.categori1 {
+  border: transparent solid;
+  height: auto;
+  width: 175px;
+  border-radius: 50vh;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background: #e48f45;
+  padding: 15px;
+}
+.categori1 h5 {
+  color: var(--lastcolor);
+  font-size: 15px;
+}
+.categori1 a {
+  background: var(--primaryColor);
+}
+
+.card .coffee-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 2%;
+}
+
+.card-body .btn {
+  background: var(--secondaryColor);
+  color: var(--lastcolor);
+  font-weight: 400;
+}
+
+.card-body .btn:hover {
+  background: var(--lastcolor);
+  color: var(--secondaryColor);
+  font-weight: 400;
+}
+
+/* Gaya visual untuk bagian kontak */
+#contact {
+  padding: 60px 0;
+}
+
+#contact h2 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+#contact p {
+  font-size: 18px;
+}
+
+#contact ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#contact form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact form label {
+  display: block;
+  font-weight: bold;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact form textarea {
+  resize: vertical;
+}
+
+#contact form button {
+  padding: 10px 15px;
+  font-size: 15px;
+  background-color: var(--lastcolor);
+  color: var(--primaryColor);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect pada tombol */
+#contact form button:hover {
+  background-color: var(--primaryColor);
+  color: var(--lastcolor);
+}
+
+.keranjang img {
+  width: 180px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  border: #555 solid;
+}
